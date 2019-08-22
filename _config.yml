@@ -15,7 +15,7 @@ tagline:             ''
 description:         'Personal Site of Thomas Gebhart'
 url:                 gebhartom.com
 rss:                 rss feed url
-baseurl:             '/'
+baseurl:             /
 baseurl_posts_img:   '/assets/images/posts/'
 baseurl_featured_img: '/assets/images/hero/'
 baseurl_featured_thumbnail: '/assets/images/thumbnail/'
