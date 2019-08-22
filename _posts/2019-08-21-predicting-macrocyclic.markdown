@@ -4,8 +4,8 @@ title:  "Predicting Macrocyclic Molecular Recognition with Machine Learning"
 date:   2019-08-21 01:00:00
 date:   2019-08-21 01:00:00
 excerpt: "..."
-categories: chemistry
-tags:  chemistry, kernel, svm
+categories:
+tags: 
 image:
   feature: predicting_macrocyclic.jpg
   topPosition: -10px
