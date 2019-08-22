@@ -15,11 +15,11 @@ tagline:             ''
 description:         'Personal Site of Thomas Gebhart'
 url:                 gebhartom.com
 rss:                 rss feed url
-baseurl:             /
+baseurl:             '/'
 baseurl_posts_img:   'assets/images/posts/'
 baseurl_featured_img: 'assets/images/hero/'
 baseurl_featured_thumbnail: 'assets/images/thumbnail/'
-baseurl_javascripts: 'assets/javascripts/'
+baseurl_javascripts: '/assets/javascripts/'
 icon:                your site icon path # /assets/img/icon.png [best 300px X 300px]
 disqus:              disqus_shortname # get it on https://disqus.com/admin/
 

@@ -1,7 +1,7 @@
 <nav role="navigation" class="sidebar sidebar--right">
   <!-- <a href="{{site.baseurl}}" class="textLogo textLogo--white textLogo--sidebar">{{ site.name }}</a> -->
   <ul class="sidebar-recentPosts">
-    <a href="about" class="sidebar-recentPosts-about">
+    <a href="{{site.baseurl}}about" class="sidebar-recentPosts-about">
       <font>About</font>
     </a>
     <div>
@@ -11,9 +11,8 @@
       {% else %}
       <li>
         {% if post.image.feature %}
-        console.log(post.url)
           <a href="{{ post.url }}" class="sidebar-recentPosts-image-wrapper">
-            <img src="{{ post.image.feature | prepend: site.baseurl_featured_thumbnail }}" style="" alt="">
+            <img src="{{site.baseurl}}{{ post.image.feature | prepend: site.baseurl_featured_thumbnail }}" style="" alt="">
           </a>
         {% endif %}
         <a href="{{ post.url }}">{{ post.title }}</a>
