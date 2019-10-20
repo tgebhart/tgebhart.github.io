@@ -14,9 +14,9 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-## Characterizing the Shape of Activation Space in Deep Neural Networks
+## Path Homologies of Deep Feedforward Networks
 
-##### Thomas Gebhart, Alan Hylton, and Paul Schrater
+##### Samir Chowdhury, Thomas Gebhart, Steve Huntsman, and Matvey Yutin
 
 Full text [here](https://arxiv.org/abs/1910.07617){:target="_blank"}.
 
