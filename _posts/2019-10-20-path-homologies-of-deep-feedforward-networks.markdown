@@ -7,7 +7,7 @@ excerpt: "..."
 categories:
 tags:  neural networks
 image:
-  feature: phmlp.png
+  feature: phmlp.jpg
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: darker
