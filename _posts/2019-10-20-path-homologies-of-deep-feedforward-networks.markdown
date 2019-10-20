@@ -8,7 +8,7 @@ categories:
 tags:  neural networks
 image:
   feature: phmlp.jpg
-  topPosition: 0px
+  topPosition: -10px
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: no
