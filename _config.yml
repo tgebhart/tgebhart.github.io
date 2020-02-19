@@ -6,7 +6,7 @@ email: gebhart@umn.edu
 description: # this means to ignore newlines until "url:"
   Mathematics | Computer Science | Neuroscience
 footer_text:
-url: https://gebhartom.com  # the base hostname & protocol for your site
+url: https://www.gebhartom.com  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
