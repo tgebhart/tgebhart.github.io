@@ -91,4 +91,4 @@ a re-statement of belief propagation as a diffusion procedure on a properly-defi
 sheaf structure. Finding the proper level of abstraction at which to interrogate
 statistical systems is a necessary step towards broadening the distributions that
 are amenable to message passing and a better understanding of belief propagation
-on non-tree graphs. 
+on non-tree graphs.
