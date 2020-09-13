@@ -16,9 +16,9 @@ these pieces to create more complex behaviors, and augmenting the behavior of th
 systems for greater societal benefit.
 
 
-<h2>
+<h3>
 <p style="text-align: center;">Topological Data Analysis</p>
-</h2>
+</h3>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-0" src="/assets/img/persistent_homology.png" alt="" title="persistent homology" />
@@ -37,9 +37,9 @@ properties within high-dimensional data. My research borrows many methods from
 TDA, including persistent homology, combinatorial Hodge theory, and the theory of
 cellular sheaves. Foundational research in TDA is ongoing.
 
-<h2>
+<h3>
 <p style="text-align: center;">Neural Network Topology</p>
-</h2>
+</h3>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-0" src="/assets/img/nn_topology.png" alt="" title="persistent homology" />
@@ -67,3 +67,28 @@ decreases in energy and memory consumption. These efficiency gains from pruning
 will be necessary moving forward, as the state-of-the-art models are growing ever
 larger. With the energy and data required to train these models growing in tandem,
 this growth is unsustainable both from an environmental and scientific perspective.
+
+
+<h3>
+<p style="text-align: center;">Statistical Systems and Belief Propagation</p>
+</h3>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-0" src="/assets/img/abstract_mp.png" alt="" title="persistent homology" />
+    </div>
+</div>
+<div class="caption">
+</div>
+
+The energy landscape of statistical systems is known to depend heavily on the
+topological structure of its underlying interactions. However, the extent to
+which the topology of the system implies its global properties is not well understood.
+For example, message passing on graphical models is not well-defined when the
+underlying graph contains cycles, but loopy belief propagation often converges in
+these cases. [Recent work](https://arxiv.org/abs/1903.06088) has shown a connection
+between the homological structure of these systems and their energy landscape, implying
+a re-statement of belief propagation as a diffusion procedure on a properly-defined
+sheaf structure. Finding the proper level of abstraction at which to interrogate
+statistical systems is a necessary step towards broadening the distributions that
+are amenable to message passing and a better understanding of belief propagation
+on non-tree graphs. 
