@@ -5,6 +5,7 @@ title: publications
 description:
 sections: [article, talk]
 nav: true
+nav_order: 1
 ---
 <div class="publications">
 {% for s in page.sections %}
