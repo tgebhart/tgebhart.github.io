@@ -7,7 +7,7 @@ first_name: Thomas
 middle_name:
 last_name: Gebhart
 email: gebharttom8@gmail.com
-description: Mathematics | Computer Science | Neuroscience # the ">" symbol means to ignore newlines until "footer_text:"
+description: Mathematics | Computer Science | Sociology # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text:
 keywords: jekyll, jekyll-theme, academic-website, gebhart, AI, ML  # add your own keywords or leave empty
 
