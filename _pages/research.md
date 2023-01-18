@@ -17,7 +17,7 @@ systems for greater societal benefit.
 
 
 <h3>
-<p style="text-align: center;">Topological Data Analysis</p>
+Topological Data Analysis
 </h3>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -35,10 +35,30 @@ data sciences by discretizing traditional topological concepts. With this
 discretization comes powerful methods for tracking local-to-global structural
 properties within high-dimensional data. My research borrows many methods from
 TDA, including persistent homology, combinatorial Hodge theory, and the theory of
-cellular sheaves. Foundational research in TDA is ongoing.
+cellular sheaves.
 
 <h3>
-<p style="text-align: center;">Neural Network Topology</p>
+Network Science and Sociology
+</h3>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-0" src="/assets/img/abstract_mp.png" alt="" title="persistent homology" />
+    </div>
+</div>
+<div class="caption">
+</div>
+
+Social sciences like Economics and Sociology of Science are frequently faced with 
+processes defined on networks. For example, production shocks to sectors of the economy may 
+be approximated by the topology of the network of producer-supplier relationships.  
+The propagation of beliefs in a community is often modeled as a form of heat diffusion across 
+the community's social network. Metrics of scientific and technological disruption are 
+derived from the network of citations among scientific articles. Many models of 
+social phenomena have a network structure at their core. My research seeks to improve and 
+further expand the breadth of tractable social phenomena. 
+
+<h3>
+Knowledge Strucutres in Deep Learning
 </h3>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -51,44 +71,10 @@ cellular sheaves. Foundational research in TDA is ongoing.
 The connectivity structure of deep neural networks plays a dominant role in their
 function. However, due to the large and complicated nature of these networks,
 little is understood about the relationship between neural network structure and
-function. I am interested in how this parameter connectivity interacts with network
-performance. More specifically, I am interested in the implicit biases embedded
-within networks due to their architectural specifications and initialization methods,
-and how this connectivity topology interacts with the topology structure of the input.
-An understanding of these biases can help point us towards network architectures
+function. I am interested in how semantic knowledge about a domain is encoded in 
+the parameter connectivity of these models. The successful implicit biases embedded
+within networks due to their architectural specifications and initialization methods can 
+provide insight into the high-dimensional structure present in the data used to train the network.
+An understanding of these biases can also help point us towards network architectures
 that are better suited for particular tasks that will train more quickly, require less
-data, and generalize to unseen data in more expected ways. An understanding of these
-network biases is crucial in gaining an understanding of the function of neural networks,
-and aligning the behavior of these networks with societal ethics and intuitions.
-Relatedly, I am also interested in optimally pruning strategies for neural networks.
-Pruning neural networks provides us with networks whose performance is comparable
-or even better than their unpruned counterparts while enjoying substantial
-decreases in energy and memory consumption. These efficiency gains from pruning
-will be necessary moving forward, as the state-of-the-art models are growing ever
-larger. With the energy and data required to train these models growing in tandem,
-this growth is unsustainable both from an environmental and scientific perspective.
-
-
-<h3>
-<p style="text-align: center;">Statistical Systems and Belief Propagation</p>
-</h3>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-0" src="/assets/img/abstract_mp.png" alt="" title="persistent homology" />
-    </div>
-</div>
-<div class="caption">
-</div>
-
-The energy landscape of statistical systems is known to depend heavily on the
-topological structure of its underlying interactions. However, the extent to
-which the topology of the system implies its global properties is not well understood.
-For example, message passing on graphical models is not well-defined when the
-underlying graph contains cycles, but loopy belief propagation often converges in
-these cases. [Recent work](https://arxiv.org/abs/1903.06088) has shown a connection
-between the homological structure of these systems and their energy landscape, implying
-a re-statement of belief propagation as a diffusion procedure on a properly-defined
-sheaf structure. Finding the proper level of abstraction at which to interrogate
-statistical systems is a necessary step towards broadening the distributions that
-are amenable to message passing and a better understanding of belief propagation
-on non-tree graphs.
+data, and generalize to unseen data in more expected ways. 
