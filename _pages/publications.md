@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description:
-sections: [article, talk]
+sections: [article]
 nav: true
 nav_order: 1
 ---

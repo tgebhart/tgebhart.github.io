@@ -17,7 +17,7 @@ systems for greater societal benefit.
 
 
 <h3>
-Topological Data Analysis
+Applied Topology
 </h3>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -48,17 +48,18 @@ Network Science and Sociology
 <div class="caption">
 </div>
 
-Social sciences like Economics and Sociology of Science are frequently faced with 
-processes defined on networks. For example, production shocks to sectors of the economy may 
-be approximated by the topology of the network of producer-supplier relationships.  
-The propagation of beliefs in a community is often modeled as a form of heat diffusion across 
+Computational social sciences like Economics or Sociology of Science frequently model their 
+sociological systems of using network-theoretic tools. 
+For example, production shocks to sectors of the economy may be approximated by the topology 
+of the network of producer-supplier relationships. 
+The propagation of knowledge in a community is often modeled as an abstract form diffusion across 
 the community's social network. Metrics of scientific and technological disruption are 
 derived from the network of citations among scientific articles. Many models of 
 social phenomena have a network structure at their core. My research seeks to improve and 
-further expand the breadth of tractable social phenomena. 
+further expand the breadth of tractable social phenomena by applying a topological lens. 
 
 <h3>
-Knowledge Strucutres in Deep Learning
+Structured Knowledge in Deep Learning
 </h3>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -70,11 +71,12 @@ Knowledge Strucutres in Deep Learning
 
 The connectivity structure of deep neural networks plays a dominant role in their
 function. However, due to the large and complicated nature of these networks,
-little is understood about the relationship between neural network structure and
-function. I am interested in how semantic knowledge about a domain is encoded in 
-the parameter connectivity of these models. The successful implicit biases embedded
+little is understood about how this structure gives rise to the function of these models. 
+I am interested in how semantic knowledge about a domain is encoded in 
+by these models, and how we can control or augment this knowledge in a way that is beneficial 
+towards scientific or societal goals. The successful implicit biases embedded
 within networks due to their architectural specifications and initialization methods can 
 provide insight into the high-dimensional structure present in the data used to train the network.
 An understanding of these biases can also help point us towards network architectures
 that are better suited for particular tasks that will train more quickly, require less
-data, and generalize to unseen data in more expected ways. 
+data, and generalize to unseen data in more controllable and expected ways. 
